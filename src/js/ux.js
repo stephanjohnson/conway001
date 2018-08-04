@@ -1,4 +1,4 @@
-function render(data) {
+function render(canvas, data) {
 
     var grid = [];
 
@@ -10,7 +10,7 @@ function render(data) {
             row.push(0);
 
         }
-        
+
         grid.push(row);
     }
 
@@ -20,5 +20,7 @@ function render(data) {
         grid[cell.y][cell.x] = 1;
 
     }
+
+    canvas
 
 }
