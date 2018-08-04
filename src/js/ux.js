@@ -1,5 +1,6 @@
 function render(canvas, data) {
 
+    // MAKE THE DATA
     var grid = [];
 
     for (var y = 0; y < data.size.y; y++){
@@ -21,6 +22,7 @@ function render(canvas, data) {
 
     }
 
-    canvas
+    // RENDER THE DATA
 
+    
 }
